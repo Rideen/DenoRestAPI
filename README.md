@@ -4,37 +4,45 @@
 ## Install Deno via Package Manager (recommended)
 
 ### Chocolatey (Windows)
-```choco install deno
+```
+choco install deno
 ```
 
 ### Homebrew (Mac)
-```brew install deno
+```
+brew install deno
 ```
 
 ## Install Deno via command
 
 ### PowerShell (Windows)
-```iwr https://deno.land/x/install/install.ps1 -useb | iex
+```
+iwr https://deno.land/x/install/install.ps1 -useb | iex
 ```
 
 ### Shell (Mac)
-```curl -fsSL https://deno.land/x/install/install.sh | sh
+```
+curl -fsSL https://deno.land/x/install/install.sh | sh
 ```
 
 ## Check if installation worked
-```deno --version
+```
+deno --version
 ```
 
 ## Get help
-```deno --help
+```
+deno --help
 ```
 
 ## Start the server
-```deno  run --allow-net server.ts
+```
+deno  run --allow-net server.ts
 ```
 
 ### Example endpoints
-```GET http://localhost:8280/employees
+```
+GET http://localhost:8280/employees
 GET http://localhost:8280/employees/1
 ...
 
